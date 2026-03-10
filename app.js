@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/health", (req,res)=>{
     res.json({
-        status:"ok",
+        status:"oka",
         service:"pixel-api"
     });
 });
